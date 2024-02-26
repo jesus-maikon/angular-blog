@@ -5,11 +5,13 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
-export class SmallCardComponent {
+export class SmallCardComponent  {
 
   @Input()
   photoCover:string = ""
   @Input()
   cardTitle:string = ""
+  @Input()
+  Id:string = "0"
 
 }
